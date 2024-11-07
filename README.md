@@ -1,5 +1,12 @@
 # Verticals: Smoke Tests
 
+## Configuration
+
+There is a `smoke-tests.json` file that contains:
+
+* A `SMOKE_ONLY` boolean that tells the suite to use a smaller set of data.
+* The list of domains and for each domain, `smoke` and `detailed` list of pages.
+
 ## Commands
 
 Runs the end-to-end tests.

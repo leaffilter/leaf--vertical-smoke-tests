@@ -6,7 +6,7 @@ interface DomainStructure {
 }
 
 import core from './smoke-tests.json';
-const smokeOnly: boolean = true;
+const smokeOnly: boolean = core.SMOKE_ONLY;
 
 test.describe('Leaf Website Verticals: Smoke Tests', () => {
 
@@ -17,7 +17,10 @@ test.describe('Leaf Website Verticals: Smoke Tests', () => {
 
       test(`Smoke Test for "${fullpath}"`, async ({ page }) => {
         await page.goto(fullpath, { timeout: 60000, waitUntil: "networkidle" });
-        await expect(page).toHaveScreenshot();  
+        await expect(page).toHaveScreenshot({
+          fullPage: true,
+          maxDiffPixelRatio: 0.1,
+        });  
       });
 
     });

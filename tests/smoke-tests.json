@@ -1,16 +1,61 @@
 {
+  "SMOKE_ONLY": true,
   "DOMAINS": [
+    "https://get.leaffilter.ca",
+    "https://get.leafhomesafetysolutions.com",
+    "https://get.leafhomewatersolutions.com",
+
+    "https://www.leaffilter.ca",
+    "https://www.leaffilter.com",
     "https://www.leafhome.com",
-    "https://www.leaffilter.com"
+    "https://www.leafhomesafetysolutions.com",
+    "https://www.leafhomewatersolutions.com"
   ],
 
-  "https://www.leafhome.com": {
+  "https://get.leaffilter.ca":  {
+    "smoke": [
+      "/"
+    ],
+    "detailed": []
+  },
+  "https://get.leafhomesafetysolutions.com":  {
+    "smoke": [
+      "/"
+    ],
+    "detailed": []
+  },
+  "https://get.leafhomewatersolutions.com":  {
+    "smoke": [
+      "/"
+    ],
+    "detailed": []
+  },
+
+  "https://www.leaffilter.ca":  {
     "smoke": [
       "/"
     ],
     "detailed": []
   },
   "https://www.leaffilter.com":  {
+    "smoke": [
+      "/"
+    ],
+    "detailed": []
+  },
+  "https://www.leafhome.com": {
+    "smoke": [
+      "/"
+    ],
+    "detailed": []
+  },
+  "https://www.leafhomesafetysolutions.com":  {
+    "smoke": [
+      "/"
+    ],
+    "detailed": []
+  },
+  "https://www.leafhomewatersolutions.com":  {
     "smoke": [
       "/"
     ],
