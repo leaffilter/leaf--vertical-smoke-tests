@@ -1,0 +1,19 @@
+{
+  "DOMAINS": [
+    "https://www.leafhome.com",
+    "https://www.leaffilter.com"
+  ],
+
+  "https://www.leafhome.com": {
+    "smoke": [
+      "/"
+    ],
+    "detailed": []
+  },
+  "https://www.leaffilter.com":  {
+    "smoke": [
+      "/"
+    ],
+    "detailed": []
+  }
+}
