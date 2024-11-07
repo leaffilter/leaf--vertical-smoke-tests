@@ -9,19 +9,31 @@ There is a `smoke-tests.json` file that contains:
 
 ## Commands
 
-Runs the end-to-end tests.
+### Updates the snapshots
+
+```script
+npm run update-snapshots
+```
+
+### Runs the end-to-end tests.
+
+```script
+npm run test
+```
+
+... OR ...
 
 ```script
 npx playwright test
 ```
 
-Starts the interactive UI mode.
+### Starts the interactive UI mode.
 
 ```script
 npx playwright test --ui
 ```
 
-Runs the tests only on Desktop Chrome.
+### Runs the tests only on Desktop Chrome.
 
 ```script
   npx playwright test --project=chromium
