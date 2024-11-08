@@ -1,15 +1,15 @@
 {
   "SMOKE_ONLY": true,
   "DOMAINS": [
-    "https://get.leaffilter.ca",
-    "https://get.leafhomesafetysolutions.com",
-    "https://get.leafhomewatersolutions.com",
+    { "url": "https://get.leaffilter.ca", "active": true },
+    { "url": "https://get.leafhomesafetysolutions.com", "active": true },
+    { "url": "https://get.leafhomewatersolutions.com", "active": true },
 
-    "https://www.leaffilter.ca",
-    "https://www.leaffilter.com",
-    "https://www.leafhome.com",
-    "https://www.leafhomesafetysolutions.com",
-    "https://www.leafhomewatersolutions.com"
+    { "url": "https://www.leaffilter.ca", "active": true },
+    { "url": "https://www.leaffilter.com", "active": true },
+    { "url": "https://www.leafhome.com", "active": true },
+    { "url": "https://www.leafhomesafetysolutions.com", "active": true },
+    { "url": "https://www.leafhomewatersolutions.com", "active": true }
   ],
 
   "https://get.leaffilter.ca":  {
