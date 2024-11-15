@@ -8,7 +8,7 @@ interface DomainPattern {
 import core from './smoke-tests.json';
 const smokeOnly: boolean = core.SMOKE_ONLY;
 
-test.describe('Leaf Website Verticals: Smoke Tests', () => {
+test.describe('Website Verticals: Smoke Tests', () => {
 
   core.DOMAINS.forEach((domain: DomainPattern) => {
     if (domain.active === true) {

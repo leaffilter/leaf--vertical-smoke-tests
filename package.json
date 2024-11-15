@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
+    "test:html": "npx playwright test --reporter=html",
     "update-snapshots": "npx playwright test --update-snapshots"
   },
   "author": "",
