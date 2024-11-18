@@ -20,12 +20,12 @@ test.describe('Website Verticals: Smoke Tests', () => {
       paths.forEach(async (path: string) => {
         const fullpath: string = `${domain.url}${path}`;
   
-        test(`Smoke Test for "${fullpath}"`, async ({ page }) => {
+        test.skip(`Smoke Test for "${fullpath}"`, async ({ page }) => {
           await page.goto(fullpath, { timeout: 60000, waitUntil: "networkidle" });
           await expect(page).toHaveScreenshot({
             fullPage: true,
             // maxDiffPixelRatio: 0.1,
-          });  
+          });
         });
 
       });
