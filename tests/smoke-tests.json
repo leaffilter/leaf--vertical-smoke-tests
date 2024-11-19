@@ -1,9 +1,11 @@
 {
   "SMOKE_ONLY": true,
+  "MAX_DIFF_PIXEL_RATIO": 0.000315,
+
   "DOMAINS": [
-    { "url": "https://get.leaffilter.ca", "active": true },
-    { "url": "https://get.leafhomesafetysolutions.com", "active": true },
-    { "url": "https://get.leafhomewatersolutions.com", "active": true },
+    { "url": "https://get.leaffilter.ca", "active": false },
+    { "url": "https://get.leafhomesafetysolutions.com", "active": false },
+    { "url": "https://get.leafhomewatersolutions.com", "active": false },
 
     { "url": "https://www.leaffilter.ca", "active": true },
     { "url": "https://www.leaffilter.com", "active": true },
@@ -39,26 +41,38 @@
   },
   "https://www.leaffilter.com":  {
     "smoke": [
-      "/"
+      "/",
+      "/register/",
+      "/simplisafe/",
+      "/discover/nd-www/email-www/",
+      "/why-leaffilter/leaffilter/"
     ],
     "detailed": []
   },
   "https://www.leafhome.com": {
     "smoke": [
-      "/"
+      "/",
+      "/water-solutions/",
+      "/water-solutions/water-filtration-systems/advanced-filtration/",
+      "/stair-lift/"
     ],
     "detailed": []
   },
   "https://www.leafhomesafetysolutions.com":  {
     "smoke": [
-      "/"
+      "/discover/"
     ],
-    "detailed": []
+    "detailed": [
+      "/"
+    ]
   },
   "https://www.leafhomewatersolutions.com":  {
     "smoke": [
-      "/"
+      "/discover/gd/protect-your-home-www/",
+      "/discover/sa/protect-your-home-www/"
     ],
-    "detailed": []
+    "detailed": [
+      "/"
+    ]
   }
 }

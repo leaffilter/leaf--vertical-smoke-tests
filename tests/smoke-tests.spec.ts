@@ -6,9 +6,11 @@ interface DomainPattern {
 }
 
 import core from './smoke-tests.json';
-const smokeOnly: boolean = core.SMOKE_ONLY;
 
-test.describe('Website Verticals: Smoke Tests', () => {
+const smokeOnly: boolean = core.SMOKE_ONLY;
+const maxDiffPixelRatio = core.MAX_DIFF_PIXEL_RATIO;
+
+test.describe('Smoke Tests', () => {
 
   core.DOMAINS.forEach((domain: DomainPattern) => {
     if (domain.active === true) {
@@ -20,16 +22,17 @@ test.describe('Website Verticals: Smoke Tests', () => {
       paths.forEach(async (path: string) => {
         const fullpath: string = `${domain.url}${path}`;
   
-        test(`Smoke Test for "${fullpath}"`, async ({ page }) => {
+        test(`for "${fullpath}"`, async ({ page }) => {
           await page.goto(fullpath, { timeout: 60000, waitUntil: "networkidle" });
+          await page.waitForTimeout(1000);
           await expect(page).toHaveScreenshot({
             fullPage: true,
-            // maxDiffPixelRatio: 0.1,
+            maxDiffPixelRatio,
           });  
         });
 
       });
+
     }
   });
-
 });
