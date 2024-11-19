@@ -1,11 +1,10 @@
 import { test } from '@playwright/test';
+import core from './migration-tests.json' assert { type: "json" };
 
 interface MigrationPattern {
   from: string;
   to: string;
 }
-
-import core from './migration-tests.json';
 
 test.describe('Website Migrations: Visual Tests', () => {
 

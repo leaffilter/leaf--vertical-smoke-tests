@@ -1,11 +1,11 @@
 import { test, expect } from '@playwright/test';
+import core from './smoke-tests.json' assert { type: "json" };
 
 interface DomainPattern {
   url: string;
   active: boolean;
 }
 
-import core from './smoke-tests.json';
 const smokeOnly: boolean = core.SMOKE_ONLY;
 
 test.describe('Website Verticals: Smoke Tests', () => {

@@ -2,10 +2,12 @@
   "name": "leaf--vertical-smoke-tests",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npx playwright test",
-    "test:html": "npx playwright test --reporter=html",
-    "update-snapshots": "npx playwright test --update-snapshots"
+    "test:smoke": "npx playwright test ./tests/smoke/smoke-tests.spec.ts",
+    "test:smoke:html": "npx playwright test ./tests/smoke/smoke-tests.spec.ts --reporter=html",
+    "test:smoke:update-snapshots": "npx playwright test ./tests/smoke/smoke-tests.spec.ts --update-snapshots",
+    "test:migration": "npx playwright test ./tests/migration/migration-generator.spec.ts"
   },
   "author": "",
   "license": "ISC",
