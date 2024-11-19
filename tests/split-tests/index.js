@@ -1,6 +1,7 @@
 import * as https from 'node:https';
 import * as process from 'node:process';
 
+// "getHeaders" replaces: curl -i "https://google.com"
 async function getHeaders(url) {
   return new Promise((resolve) => {
     let headers = {};

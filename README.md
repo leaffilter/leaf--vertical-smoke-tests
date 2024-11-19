@@ -28,7 +28,7 @@ The intent for a release is to ...
 
 ### Process Run
 
-For steps **4 and 5**, you will enter `npx run test` in the CLI.
+For steps **4 and 5**, you will enter `npx run test:smoke` in the CLI.
 
 A run with failure (something needs evaluated) looks like this.
 
@@ -62,13 +62,13 @@ There is a `smoke-tests.json` file that contains:
 ### Updates the snapshots
 
 ```script
-npm run update-snapshots
+npm run test:smoke:update-snapshots
 ```
 
 ### Runs the end-to-end tests.
 
 ```script
-npm run test
+npm run test:smoke
 ```
 
 ... OR ...
