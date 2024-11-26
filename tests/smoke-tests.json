@@ -44,6 +44,7 @@
       "/",
       "/register/",
       "/simplisafe/",
+      "/discover/",
       "/discover/nd-www/email-www/",
       "/why-leaffilter/leaffilter/"
     ],
@@ -69,7 +70,8 @@
   "https://www.leafhomewatersolutions.com":  {
     "smoke": [
       "/discover/gd/protect-your-home-www/",
-      "/discover/sa/protect-your-home-www/"
+      "/discover/sa/protect-your-home-www/",
+      "/discover/sa/protect-your-home-reskin/"
     ],
     "detailed": [
       "/"

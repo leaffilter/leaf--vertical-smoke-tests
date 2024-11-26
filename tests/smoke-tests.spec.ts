@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import core from './smoke-tests.json';
+
 interface DomainPattern {
   url: string;
   active: boolean;
