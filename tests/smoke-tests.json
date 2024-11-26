@@ -42,13 +42,36 @@
   "https://www.leaffilter.com":  {
     "smoke": [
       "/",
-      "/register/",
-      "/simplisafe/",
       "/discover/",
       "/discover/nd-www/email-www/",
+      "/register/",
+      "/simplisafe/",
       "/why-leaffilter/leaffilter/"
     ],
-    "detailed": []
+    "detailed": [
+      "/blog/gutter-cleaning/clean-gutters-without-ladder/",
+      "/blog/gutter-cleaning/do-gutter-guards-need-to-be-cleaned/",
+      "/blog/gutter-cleaning/gutter-cleaning-cost/",
+      "/blog/gutter-cleaning/types-of-gutter-guards/",
+      "/blog/home-exteriors/roofing-gutters/doesnt-debris-just-sit-on-top-of-leaffilter/",
+      "/blog/home-exteriors/roofing-gutters/how-much-do-gutter-guards-cost/",
+      "/blog/home-exteriors/roofing-gutters/install-rain-gutters/",
+      "/blog/home-exteriors/roofing-gutters/installing-gutter-guards-mistakes-to-avoid/",
+      "/blog/home-exteriors/roofing-gutters/much-new-gutters-cost/",
+      "/blog/how-to-repairs/how-to-get-squirrels-out-of-your-gutters/",
+
+      "/locations/cincinnati-gutter-guards/",
+      "/locations/dallas-gutter-guards/",
+      "/locations/detroit-gutter-guards/",
+      "/locations/indianapolis-gutter-guards/",
+      "/locations/madison-gutter-guards/",
+      "/locations/minneapolis-gutter-guards/",
+      "/locations/nashville-gutter-guards/",
+      "/locations/seattle-gutter-guards/",
+      "/locations/washington-dc-gutter-guards/",
+
+      "/promo/labor-day/?utm_source=41PF&utm_medium=postcard&utm_content=labor-day&utm_campaign=VanityUrl-ND&lf_dc=save-15"
+    ]
   },
   "https://www.leafhome.com": {
     "smoke": [
@@ -57,14 +80,17 @@
       "/water-solutions/water-filtration-systems/advanced-filtration/",
       "/stair-lift/"
     ],
-    "detailed": []
+    "detailed": [
+      "/gutter-systems/?utm_source=41PF&utm_medium=postcard&utm_content=labor-day&utm_campaign=VanityUrl-ND&lf_dc=save-15"
+    ]
   },
   "https://www.leafhomesafetysolutions.com":  {
     "smoke": [
       "/discover/"
     ],
     "detailed": [
-      "/"
+      "/",
+      "/discover/?utm_source=41PF&utm_medium=postcard&utm_content=labor-day&utm_campaign=VanityUrl-ND&lf_dc=save-15"
     ]
   },
   "https://www.leafhomewatersolutions.com":  {
@@ -74,7 +100,8 @@
       "/discover/sa/protect-your-home-reskin/"
     ],
     "detailed": [
-      "/"
+      "/",
+      "/discover/gd/protect-your-home-reskin/?utm_source=41PF&utm_medium=postcard&utm_campaign=VanityUrl-ND&lf_dc=15-offer&legacy_redirect&utm_content=banner%3Aon"
     ]
   }
 }
