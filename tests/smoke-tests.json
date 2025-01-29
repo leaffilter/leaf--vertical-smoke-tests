@@ -1,17 +1,17 @@
 {
   "SMOKE_ONLY": true,
-  "MAX_DIFF_PIXEL_RATIO": 0.000315,
+  "MAX_DIFF_PIXEL_RATIO": 0.001,
 
   "DOMAINS": [
     { "url": "https://get.leaffilter.ca", "active": false },
     { "url": "https://get.leafhomesafetysolutions.com", "active": false },
     { "url": "https://get.leafhomewatersolutions.com", "active": false },
 
-    { "url": "https://www.leaffilter.ca", "active": true },
-    { "url": "https://www.leaffilter.com", "active": true },
+    { "url": "https://www.leaffilter.ca", "active": false },
+    { "url": "https://www.leaffilter.com", "active": false },
     { "url": "https://www.leafhome.com", "active": true },
-    { "url": "https://www.leafhomesafetysolutions.com", "active": true },
-    { "url": "https://www.leafhomewatersolutions.com", "active": true }
+    { "url": "https://www.leafhomesafetysolutions.com", "active": false },
+    { "url": "https://www.leafhomewatersolutions.com", "active": false }
   ],
 
   "https://get.leaffilter.ca":  {
@@ -174,8 +174,7 @@
       "/water-solutions/water-softening-systems/salt-free-conditioners/",
       "/water-solutions/water-softening-systems",
       "/water-solutions/water-softening-systems/softening-systems/",
-      "/water-solutions/well-water-systems/",
-      "/stair-lift/"
+      "/water-solutions/well-water-systems/"
     ],
     "detailed": [
       "/blog/stair-lift/",

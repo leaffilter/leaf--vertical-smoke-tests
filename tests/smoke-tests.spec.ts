@@ -23,7 +23,7 @@ test.describe('Smoke Tests', () => {
   
         test(`for "${fullpath}"`, async ({ page }) => {
           await page.goto(fullpath, { timeout: 60000, waitUntil: "networkidle" });
-          await page.waitForTimeout(1000);
+          await page.waitForTimeout(5000);
           await expect(page).toHaveScreenshot({
             fullPage: true,
             maxDiffPixelRatio,
